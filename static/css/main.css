@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+h3,p {
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+}
+
+.icon {
+    margin-top: 3vh;
+    background-image: url("../img/icon.jpg");
+    background-size: 120%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-position: center center;
+    display: inline-block;
+}
+
+.name {
+    margin-top: 1vh;
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    border: 1px solid black;
+    border-radius: 5px;
+    list-style: none;
+    flex: 1 1 300px;
+    flex: 0 1 300px;
+    margin: 5px;
+    text-align: center;
+}
+
+.cta {
+    border-top: 1px dashed gray;
+}
